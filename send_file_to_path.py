@@ -4,13 +4,13 @@ import os
 
 # Files:
 # local file to upload
-file_to_upload = 'CAD MATERIAIS - SUPORTE.csv'
+file_to_upload = 'CAD_MAT_SUP.csv'
 
 # full path of the local file
 local_path = os.getcwd() + r"\ "[0] + file_to_upload
 
 # path to online file
-remote_path = "/IMPORTACAO PRODUTOS/CAD MATERIAIS - SUPORTE.csv"
+remote_path = "/IMPORTACAO PRODUTOS/CAD_MAT_SUP.csv"
 
 
 def main_function():

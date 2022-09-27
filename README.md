@@ -14,8 +14,5 @@ excel_path = r'C:\Users\your\path\to\file.xlsx'
 ##  Run program
 To run the full program, run send_file_to_path.py
 
-##  Run program
-To run the full program, run send_file_to_path.py
-
 ## Run only SFTP sending files
 To run only the SFTP file sending, use **copy_files**

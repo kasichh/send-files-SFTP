@@ -1,8 +1,8 @@
-# send-file-to-path
-
-server_information.py:
-"
-# Virtual machine information
+# Send files using SFTP with python
+It's necessary create a file named "server_information.py" with:
+## server_information.py:
+```
+# Virtual machine information 
 sftpHost = 'ip.address.to.your.server'
 sftpPort = 0000
 uname = 'username'
@@ -10,4 +10,6 @@ passw = 'password'
 
 # local information
 excel_path = r'C:\Users\your\path\to\file.xlsx'
-"
+```
+##  Run program
+To run the full program, run send_file_to_path.py
